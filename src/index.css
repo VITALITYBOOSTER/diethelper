@@ -1,0 +1,186 @@
+body {
+  margin: 0%;
+  display: flex;
+  justify-content: center;
+  background-color: yellow;
+}
+.App {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  width: max-content;
+  height: max-content;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.calory-counnter-board {
+  justify-content: space-evenly;
+  margin-top: 6px;
+  display: flex;
+  flex-flow: row;
+  width: 1450px;
+  height: 150px;
+  background-color: chartreuse;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 32px;
+}
+.outer-div-class {
+  border: none;
+}
+a {
+  text-decoration: none;
+}
+.counter {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: blue;
+  font-size: 44px;
+  padding: 45px;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  margin-top: 10px;
+  border: 10px rgb(255, 94, 0) solid;
+}
+.plane-menus-board {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1000px;
+  align-items: center;
+}
+.add-caloury-dash {
+  background-color: rgb(0, 0, 0);
+  width: 500px;
+  height: 100px;
+  font-size: 28px;
+  justify-content: space-between;
+  display: flex;
+  flex-flow: row;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+  padding: 5px;
+  color: white;
+}
+.add-caloury-dash:hover {
+  width: 530px;
+  cursor: pointer;
+}
+.add-calory-dash-img-button {
+  width: 40px;
+  height: 40px;
+}
+.plane-menu {
+  border-radius: 20px;
+  font-size: 32px;
+  width: 800px;
+  background-color: blue;
+  height: 100px;
+  display: flex;
+  flex-flow: row;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 7px;
+}
+.plane-menu:hover {
+  width: 820px;
+}
+.add-caloury-board {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1450px;
+  height: fit-content;
+  background-color: rgb(31, 212, 40);
+  justify-content: space-around;
+}
+.glass {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: transparent;
+}
+.water-container {
+  font-size: 35px;
+  margin-left: 30px;
+}
+.add-water-board {
+  margin-top: 100px;
+  display: flex;
+  flex-flow: column;
+  background-color: #ffaa00;
+}
+.glasses-row {
+  padding: 10px;
+}
+.button-click {
+  border-radius: 20px;
+  width: 20px;
+  height: 20px;
+}
+.glasses-row {
+  display: flex;
+  flex-flow: row;
+}
+.square {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+}
+.square.exiting {
+  animation: square 1000ms ease-out;
+}
+
+.square.green {
+  background: rgb(101, 255, 40);
+  border: none;
+  position: absolute;
+}
+
+@keyframes square {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.breakfast-board {
+  width: 1000px;
+  height: max-content;
+  justify-content: center;
+  align-items: center;
+  background-color: fuchsia;
+  display: flex;
+  flex-flow: column;
+}
+.back-button {
+  cursor: pointer;
+  width: 200px;
+  height: 60px;
+}
+.button-adding-element {
+  cursor: pointer;
+}
+.button-adding-element {
+  height: 60px;
+  width: 60px;
+}
